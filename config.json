@@ -1,0 +1,16 @@
+[
+    {
+        "id": "main_channel",
+        "api_url": "https://api.example.com/stream/main.json",
+        "ping_role": true,
+        "role_id": "123456789012345678",
+        "custom_text": "🔥 We are LIVE! Come hang out and drop a hello in chat!"
+    },
+    {
+        "id": "secondary_channel",
+        "api_url": "https://api.example.com/stream/secondary.json",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Chilling with some late-night games. Grab a snack and tune in."
+    }
+]
