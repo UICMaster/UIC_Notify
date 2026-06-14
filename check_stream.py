@@ -148,7 +148,7 @@ def update_offline_message(message_id):
     payload = {
         "content": "",
         "embeds": [{
-            "title": "💤 Stream Ended",
+            "title": "💤 Stream Beendet",
             "description": "Thanks for watching! Catch you next time.",
             "color": 8421504,
         }],
