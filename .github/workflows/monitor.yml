@@ -2,7 +2,7 @@ name: Stream Monitor
 
 on:
   schedule:
-    # Runs every 5 minutes
+    # Runs every 5 minutes (Minimum allowed by GitHub Actions scheduling)
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
@@ -38,7 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Touch ensures the file exists so git add doesn't fail on the very first run
           touch state.json
           git add state.json
           git diff --staged --quiet || (git commit -m "chore: update stream state [skip ci]" && git push)
