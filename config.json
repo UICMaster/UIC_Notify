@@ -1,16 +1,16 @@
 [
     {
-        "id": "F10_Flo",
-        "api_url": "https://www.twitch.tv/f10official",
+        "id": "F10",
+        "channel": "f10official",
         "ping_role": false,
-        "role_id": "123456789012345678",
-        "custom_text": "🔥 We are LIVE! Come hang out and drop a hello in chat!"
+        "role_id": "",
+        "custom_text": "🔥 We are LIVE on Twitch! Come say hi!"
     },
     {
         "id": "DMP",
-        "api_url": "https://www.twitch.tv/demoted_pigeons_esports",
+        "channel": "demoted_pigeons_esports",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "Chilling with some late-night games. Grab a snack and tune in."
+        "custom_text": "My buddy is streaming, check them out!"
     }
 ]
