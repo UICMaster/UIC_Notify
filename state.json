@@ -8,7 +8,7 @@
         "message_id": null
     },
     "PL": {
-        "is_live": false,
+        "is_live": true,
         "message_id": null
     }
 }
