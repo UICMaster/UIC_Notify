@@ -7,7 +7,7 @@
         "custom_text": "🔥 We are LIVE! Come hang out and drop a hello in chat!"
     },
     {
-        "id": "secondary_channel",
+        "id": "DMP",
         "api_url": "https://www.twitch.tv/demoted_pigeons_esports",
         "ping_role": false,
         "role_id": "",
