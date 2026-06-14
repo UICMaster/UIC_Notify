@@ -12,5 +12,12 @@
         "ping_role": false,
         "role_id": "",
         "custom_text": "My buddy is streaming, check them out!"
+    },
+    {
+        "id": "PL",
+        "channel": "primeleague",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "PrimeLeague am Start - Das ist ein Test!"
     }
 ]
