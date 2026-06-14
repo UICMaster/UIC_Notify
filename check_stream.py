@@ -33,16 +33,18 @@ def fetch_twitch_data(streamer):
 
     try:
         uptime = requests.get(f"https://decapi.me/twitch/uptime/{channel}", timeout=10).text
-
-        print(f"🕵️ Debug [{channel}]: DecAPI returned -> {uptime}")
         if "Channel is not live" in uptime or "offline" in uptime.lower():
             return {"is_streaming": False}
         
+        # Fetch standard stream data
         title = requests.get(f"https://decapi.me/twitch/title/{channel}", timeout=10).text
         game = requests.get(f"https://decapi.me/twitch/game/{channel}", timeout=10).text
         
+        # NEW: Fetch the round Profile Avatar and Follower count
+        avatar = requests.get(f"https://decapi.me/twitch/avatar/{channel}", timeout=10).text
+        followers = requests.get(f"https://decapi.me/twitch/followcount/{channel}", timeout=10).text
+        
         channel_lower = channel.lower()
-        # The ?t= timestamp forces Discord to grab a fresh thumbnail every time
         thumbnail = f"https://static-cdn.jtvnw.net/previews-ttv/live_user_{channel_lower}-1920x1080.jpg?t={int(time.time())}"
         
         return {
@@ -50,7 +52,9 @@ def fetch_twitch_data(streamer):
             "title": title,
             "game_name": game,
             "url": f"https://twitch.tv/{channel}",
-            "thumbnail_url": thumbnail
+            "thumbnail_url": thumbnail,
+            "avatar_url": avatar,
+            "followers": followers
         }
     except requests.exceptions.RequestException as e:
         print(f"⚠️ Error fetching Twitch data for {channel}: {e}")
@@ -61,6 +65,11 @@ def send_live_notification(streamer_config, stream_data):
     url = stream_data.get("url", "https://twitch.tv")
     game = stream_data.get("game_name", "Just Chatting")
     thumbnail = stream_data.get("thumbnail_url", "")
+    avatar = stream_data.get("avatar_url", "")
+    followers = stream_data.get("followers", "N/A")
+    
+    # Capitalizes the channel name nicely (e.g., "primeleague" -> "Primeleague")
+    channel_name = streamer_config.get("channel", "Twitch").title()
 
     content_parts = []
     if streamer_config.get("ping_role") and streamer_config.get("role_id"):
@@ -75,19 +84,52 @@ def send_live_notification(streamer_config, stream_data):
     payload = {
         "content": final_content,
         "embeds": [{
-            "title": "🚨 Stream is LIVE!",
-            "description": f"**{title}**\n\n**Playing:** {game}",
+            # The Author block handles the round profile picture and clickable channel name
+            "author": {
+                "name": f"{channel_name} is LIVE!",
+                "url": url,
+                "icon_url": avatar
+            },
+            # The Description is strictly the Stream Title mapped to a Markdown link
+            "description": f"**[{title}]({url})**",
             "color": 9520895, # Twitch Purple
+            # Fields handle the side-by-side grid layout
+            "fields": [
+                {
+                    "name": "🎮 Game",
+                    "value": game,
+                    "inline": True
+                },
+                {
+                    "name": "👥 Followers",
+                    "value": followers,
+                    "inline": True
+                }
+            ],
             "image": {"url": thumbnail} if thumbnail else {},
         }],
         "components": [{
             "type": 1, 
-            "components": [{
-                "type": 2, 
-                "style": 5, 
-                "label": "📺 Watch Live",
-                "url": url
-            }]
+            "components": [
+                {
+                    "type": 2, 
+                    "style": 5, 
+                    "label": "📺 Watch Live",
+                    "url": url
+                },
+                {
+                    "type": 2, 
+                    "style": 5, 
+                    "label": "🍿 Past Broadcasts",
+                    "url": f"{url}/videos"
+                },
+                {
+                    "type": 2, 
+                    "style": 5, 
+                    "label": "💜 Subscribe",
+                    "url": f"https://subs.twitch.tv/{streamer_config.get('channel')}"
+                }
+            ]
         }]
     }
 
