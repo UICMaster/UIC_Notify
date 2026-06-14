@@ -33,6 +33,8 @@ def fetch_twitch_data(streamer):
 
     try:
         uptime = requests.get(f"https://decapi.me/twitch/uptime/{channel}", timeout=10).text
+
+        print(f"🕵️ Debug [{channel}]: DecAPI returned -> {uptime}")
         if "Channel is not live" in uptime or "offline" in uptime.lower():
             return {"is_streaming": False}
         
