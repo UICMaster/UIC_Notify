@@ -96,12 +96,12 @@ def send_live_notification(streamer_config, stream_data):
             # Fields handle the side-by-side grid layout
             "fields": [
                 {
-                    "name": "🎮 Game",
+                    "name": "Kategorie",
                     "value": game,
                     "inline": True
                 },
                 {
-                    "name": "👥 Followers",
+                    "name": "Follower",
                     "value": followers,
                     "inline": True
                 }
@@ -114,19 +114,19 @@ def send_live_notification(streamer_config, stream_data):
                 {
                     "type": 2, 
                     "style": 5, 
-                    "label": "📺 Watch Live",
+                    "label": "Live zuschauen",
                     "url": url
                 },
                 {
                     "type": 2, 
                     "style": 5, 
-                    "label": "🍿 Past Broadcasts",
+                    "label": "Vergangene Streams",
                     "url": f"{url}/videos"
                 },
                 {
                     "type": 2, 
                     "style": 5, 
-                    "label": "💜 Subscribe",
+                    "label": "Streamer Abonnieren",
                     "url": f"https://subs.twitch.tv/{streamer_config.get('channel')}"
                 }
             ]
