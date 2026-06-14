@@ -2,7 +2,6 @@ name: Stream Monitor
 
 on:
   schedule:
-    # Runs every 5 minutes (Minimum allowed by GitHub Actions scheduling)
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
@@ -31,7 +30,8 @@ jobs:
 
       - name: Run Stream Checker Script
         env:
-          CHANNEL_WEBHOOK_URL: ${{ secrets.CHANNEL_WEBHOOK_URL }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
         run: python check_stream.py
 
       - name: Commit and Push state changes
