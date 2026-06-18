@@ -10,9 +10,9 @@
         "started_at": 0
     },
     "RACIALLE": {
-        "is_live": true,
-        "message_id": "1517151582905434222",
-        "started_at": 1781787131
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "DMP": {
         "is_live": false,
