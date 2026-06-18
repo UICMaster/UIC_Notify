@@ -40,7 +40,7 @@ def format_duration(seconds):
     parts = []
     if hours > 0:
         parts.append(f"{hours} Stunde{'n' if hours != 1 else ''}")
-    if minutes > 0 or hours == 0: # Zeige Minuten auch an, wenn es 0 Stunden sind
+    if minutes > 0 or hours == 0: 
         parts.append(f"{minutes} Minute{'n' if minutes != 1 else ''}")
         
     return " und ".join(parts)
@@ -158,11 +158,11 @@ def send_live_notification(streamer_config, stream_data):
             ],
             "image": {"url": thumbnail} if thumbnail else {},
         }],
+        # NUR DER LIVE BUTTON
         "components": [{
             "type": 1, 
             "components": [
-                {"type": 2, "style": 5, "label": "Jetzt zuschauen", "url": url},
-                {"type": 2, "style": 5, "label": "Kanal ansehen", "url": url}
+                {"type": 2, "style": 5, "label": "Jetzt zuschauen", "url": url}
             ]
         }]
     }
@@ -189,11 +189,11 @@ def update_offline_message(message_id, started_at_timestamp):
             embed = embeds[0]
             embed["color"] = 8421504 # Grau
             
-            # Titel/Author anpassen
+            # Titel/Author anpassen (Emoji entfernt)
             if "author" in embed:
                 old_name = embed["author"].get("name", "")
                 clean_name = old_name.replace(" ist LIVE!", "")
-                embed["author"]["name"] = f"💤 {clean_name} ist offline"
+                embed["author"]["name"] = f"{clean_name} ist offline"
             
             # Dauer berechnen
             duration_text = ""
@@ -209,10 +209,18 @@ def update_offline_message(message_id, started_at_timestamp):
             else:
                 embed["description"] = "Der Stream wurde beendet."
             
-            # Buttons entfernen
+            # Kanal-URL auslesen
+            channel_url = embed.get("url", "https://twitch.tv")
+            
+            # NUR DER ARCHIV BUTTON
             payload = {
                 "embeds": [embed],
-                "components": [] 
+                "components": [{
+                    "type": 1, 
+                    "components": [
+                        {"type": 2, "style": 5, "label": "Vergangene Streams", "url": f"{channel_url}/videos"}
+                    ]
+                }] 
             }
             
             patch_response = requests.patch(message_url, headers=HEADERS, json=payload)
