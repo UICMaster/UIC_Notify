@@ -10,5 +10,13 @@
     "PL": {
         "is_live": false,
         "message_id": null
+    },
+    "UIC_TV": {
+        "is_live": false,
+        "message_id": null
+    },
+    "RACIALLE": {
+        "is_live": true,
+        "message_id": "1517144519710081116"
     }
 }
