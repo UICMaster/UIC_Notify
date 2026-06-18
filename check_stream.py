@@ -158,7 +158,6 @@ def send_live_notification(streamer_config, stream_data):
             ],
             "image": {"url": thumbnail} if thumbnail else {},
         }],
-        # NUR DER LIVE BUTTON
         "components": [{
             "type": 1, 
             "components": [
@@ -175,6 +174,64 @@ def send_live_notification(streamer_config, stream_data):
         print(f"❌ Fehler beim Senden: {response.status_code} - {response.text}")
         return None
 
+def update_live_message(message_id, streamer_config, stream_data, started_at_timestamp):
+    if not message_id: return
+
+    message_url = f"{BASE_API_URL}/{message_id}"
+    
+    title = stream_data.get("title", "Live Stream!")
+    url = stream_data.get("url", "https://twitch.tv")
+    game = stream_data.get("game_name", "Just Chatting")
+    thumbnail = stream_data.get("thumbnail_url", "")
+    avatar = stream_data.get("avatar_url", "")
+    viewers = stream_data.get("viewers", 0)
+    tags = stream_data.get("tags", "")
+    
+    channel_name = streamer_config.get("channel", "Twitch").title()
+    time_string = f"<t:{started_at_timestamp}:R>" if started_at_timestamp else "Jetzt gerade"
+
+    # Behalte den Ping-Text bei, falls Nutzer nach oben scrollen
+    content_parts = []
+    if streamer_config.get("ping_role") and streamer_config.get("role_id"):
+        content_parts.append(f"<@&{streamer_config['role_id']}>")
+    custom_text = streamer_config.get("custom_text", "")
+    if custom_text:
+        content_parts.append(custom_text)
+    final_content = " ".join(content_parts)
+
+    payload = {
+        "content": final_content,
+        "embeds": [{
+            "author": {
+                "name": f"{channel_name} ist LIVE!",
+                "url": url,
+                "icon_url": avatar
+            },
+            "title": title, 
+            "url": url,
+            "description": f"*{tags}*" if tags else "", 
+            "color": 9520895, 
+            "fields": [
+                {"name": "🎮 Kategorie", "value": game, "inline": True},
+                {"name": "👁️ Zuschauer", "value": str(viewers), "inline": True},
+                {"name": "⏱️ Gestartet", "value": time_string, "inline": True}
+            ],
+            "image": {"url": thumbnail} if thumbnail else {},
+        }],
+        "components": [{
+            "type": 1, 
+            "components": [
+                {"type": 2, "style": 5, "label": "Jetzt zuschauen", "url": url}
+            ]
+        }]
+    }
+
+    response = requests.patch(message_url, headers=HEADERS, json=payload)
+    if response.status_code in [200, 201]:
+        print(f"🔄 Live-Daten aktualisiert für {streamer_config['id']} (Zuschauer: {viewers})")
+    else:
+        print(f"❌ Fehler beim Aktualisieren der Live-Daten: {response.status_code} - {response.text}")
+
 def update_offline_message(message_id, started_at_timestamp):
     if not message_id: return
 
@@ -189,30 +246,25 @@ def update_offline_message(message_id, started_at_timestamp):
             embed = embeds[0]
             embed["color"] = 8421504 # Grau
             
-            # Titel/Author anpassen (Emoji entfernt)
             if "author" in embed:
                 old_name = embed["author"].get("name", "")
                 clean_name = old_name.replace(" ist LIVE!", "")
                 embed["author"]["name"] = f"{clean_name} ist offline"
             
-            # Dauer berechnen
             duration_text = ""
             if started_at_timestamp:
                 current_time = int(time.time())
                 duration_seconds = current_time - started_at_timestamp
                 duration_text = format_duration(duration_seconds)
             
-            # Live-Statistiken (Felder) löschen und Dauer in die Beschreibung packen
             embed["fields"] = []
             if duration_text:
                 embed["description"] = f"Der Stream war für **{duration_text}** online."
             else:
                 embed["description"] = "Der Stream wurde beendet."
             
-            # Kanal-URL auslesen
             channel_url = embed.get("url", "https://twitch.tv")
             
-            # NUR DER ARCHIV BUTTON
             payload = {
                 "embeds": [embed],
                 "components": [{
@@ -225,7 +277,7 @@ def update_offline_message(message_id, started_at_timestamp):
             
             patch_response = requests.patch(message_url, headers=HEADERS, json=payload)
             if patch_response.status_code in [200, 201]:
-                print(f"🔄 Nachricht {message_id} erfolgreich auf Offline aktualisiert.")
+                print(f"⏹️ Nachricht {message_id} erfolgreich auf Offline aktualisiert.")
             else:
                 print(f"❌ Fehler beim Aktualisieren der Nachricht {message_id}: {patch_response.text}")
         else:
@@ -257,25 +309,30 @@ def main():
             state_changed = True
 
         current_state = state[streamer_id]
-        
         is_live = channel in live_streams_data
         
+        # 1. Streamer geht ONLINE
         if is_live and not current_state.get("is_live"):
             stream_data = live_streams_data[channel]
             msg_id = send_live_notification(streamer, stream_data)
             
-            # Status aktualisieren UND Startzeit speichern
             current_state["is_live"] = True
             current_state["message_id"] = msg_id
             current_state["started_at"] = stream_data.get("started_at", 0)
             state_changed = True
 
+        # 2. Streamer ist WEITERHIN ONLINE (NEU)
+        elif is_live and current_state.get("is_live"):
+            stream_data = live_streams_data[channel]
+            started_at = current_state.get("started_at", 0)
+            # Führt ein stilles Update der Karte in Discord durch
+            update_live_message(current_state["message_id"], streamer, stream_data, started_at)
+
+        # 3. Streamer geht OFFLINE
         elif not is_live and current_state.get("is_live"):
-            # Offline-Nachricht updaten und Startzeit übergeben
             started_at = current_state.get("started_at", 0)
             update_offline_message(current_state["message_id"], started_at)
             
-            # Status zurücksetzen
             current_state["is_live"] = False
             current_state["message_id"] = None
             current_state["started_at"] = 0
