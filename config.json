@@ -7,6 +7,20 @@
         "custom_text": "🔥 We are LIVE on Twitch! Come say hi!"
     },
     {
+        "id": "UIC_TV",
+        "channel": "uic_tv",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Das ist ein Test- Neuer Bot wird getestet."
+    },
+    {
+        "id": "RACIALLE",
+        "channel": "racialle",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Das ist ein Test- Neuer Bot wird getestet."
+    },
+    {
         "id": "DMP",
         "channel": "demoted_pigeons_esports",
         "ping_role": false,
