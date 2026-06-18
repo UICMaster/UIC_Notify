@@ -1,0 +1,27 @@
+{
+    "F10": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
+    },
+    "UIC_TV": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
+    },
+    "RACIALLE": {
+        "is_live": true,
+        "message_id": "1517148154481606838",
+        "started_at": 1781786657
+    },
+    "DMP": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
+    },
+    "PL": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
+    }
+}
