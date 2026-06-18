@@ -1,7 +1,7 @@
 {
     "F10": {
-        "is_live": false,
-        "message_id": null
+        "is_live": true,
+        "message_id": "1517126524850012260"
     },
     "DMP": {
         "is_live": false,
