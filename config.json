@@ -4,34 +4,132 @@
         "channel": "f10official",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "🔥 We are LIVE on Twitch! Come say hi!"
+        "custom_text": "🔥 Mir ist nichts besseres eingefallen."
     },
     {
         "id": "UIC_TV",
         "channel": "uic_tv",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "Das ist ein Test- Neuer Bot wird getestet."
+        "custom_text": "🔥 UIC ist LIve!"
     },
     {
         "id": "RACIALLE",
         "channel": "racialle",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "Das ist ein Test- Neuer Bot wird getestet."
+        "custom_text": "🔥 proStarII ist Live!"
     },
     {
-        "id": "DMP",
-        "channel": "demoted_pigeons_esports",
+        "id": "RAYANDO",
+        "channel": "rayando07",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "My buddy is streaming, check them out!"
+        "custom_text": "Lieferando Halloumi Marokkanischer Minztee Bailando"
     },
     {
-        "id": "PL",
-        "channel": "primeleague",
+        "id": "",
+        "channel": "",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "PrimeLeague am Start - Das ist ein Test!"
+        "custom_text": ""
+    },
+    {
+        "id": "UIC",
+        "channel": "ultrainstinctcrew",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Die Crew ist Online! UIC in einem Spieltag der PrimeLeague! Unterstützt die Jungs!"
+    },
+    {
+        "id": "KEYGASZA",
+        "channel": "keygasza1337",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ready zum Kochen 🧑‍🍳 "
+    },
+    {
+        "id": "SPEEDY",
+        "channel": "uicspeedy",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ready zur nächsten Nachtschiiicht🌃! "
+    },
+    {
+        "id": "GALLA",
+        "channel": "gallagros",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Achtung, hier wird nicht gestreichelt – hier wird zerstört."
+    },
+    {
+        "id": "EIGEEEN",
+        "channel": "theeigeeen",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": ""
+    },
+    {
+        "id": "MC",
+        "channel": "n1ghtm4rex_",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Main Character himself. LFG! Alle unter meinem Schatten!"
+    },
+    {
+        "id": "LOONZ",
+        "channel": "uicloonz",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Wer Zeit und Lust hat, kann gerne reinschauen und den Stream begleiten."
+    },
+    {
+        "id": "DANNY",
+        "channel": "uicdanny",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Witze ✅ Micros ✅Makros ✅ - Alles Müll!"
+    },
+    {
+        "id": "FOXYTEX",
+        "channel": "foxytex",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Der beste Caster übernimmt jetzt den Laden."
+    },
+    {
+        "id": "KUROKO",
+        "channel": "uic_kuroko",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Zu Jung ist nur ein asiatischer Frauenname!"
+    },
+    {
+        "id": "FROZENHANDS",
+        "channel": "uic_frozenhands",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Kommt in den Chat und gibt Liebe, Kuss!"
+    },
+    {
+        "id": "SLEVIN",
+        "channel": "slevinhunter",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "GiG - Geld ist geil!"
+    },
+    {
+        "id": "NIGGGGO",
+        "channel": "r3ktbybaguette",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "**Support Main auf dem Papier, Playmaker auf dem Server!** Als taktisches Herz des UIC Prime zieht {channel} im Hintergrund die Fäden. Speedy, Giani, Sheny (Nicht Niki, er ist unser Engel), carryed er durch das Game. **Eiskalt, präzise und den Gegnern immer einen Schritt voraus. **Spaß beiseite, UIC Prime ist die Fam ❤️ Kommt in den Stream und lasst es krachen für geiles Gameplay und mehr"
+    },
+    {
+        "id": "MARRIE",
+        "channel": "marriseyyy",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "🔥 Marrie ist Live!"
     }
 ]
