@@ -1,8 +1,8 @@
 name: Stream Monitor
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
+  repository_dispatch:
+    types: [check-stream-event]
   workflow_dispatch:
 
 permissions:
