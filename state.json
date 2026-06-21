@@ -5,9 +5,9 @@
         "started_at": 0
     },
     "UIC_TV": {
-        "is_live": true,
-        "message_id": "1518284548553572414",
-        "started_at": 1782057343
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "RACIALLE": {
         "is_live": false,
