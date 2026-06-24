@@ -1,8 +1,8 @@
 {
     "F10": {
-        "is_live": true,
-        "message_id": "1519128773394698251",
-        "started_at": 1782258609
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "UIC_TV": {
         "is_live": false,
