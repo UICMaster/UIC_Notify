@@ -65,9 +65,9 @@
         "started_at": 0
     },
     "KUROKO": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1519620812443877418",
+        "started_at": 1782376163
     },
     "FROZENHANDS": {
         "is_live": false,
