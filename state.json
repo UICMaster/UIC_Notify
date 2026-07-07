@@ -85,8 +85,8 @@
         "started_at": 0
     },
     "MARRIE": {
-        "is_live": true,
-        "message_id": "1523839782491394161",
-        "started_at": 1783381949
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
