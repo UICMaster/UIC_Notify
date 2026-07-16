@@ -105,6 +105,13 @@
         "custom_text": "Kommt in den Chat und gibt Liebe, Kuss!"
     },
     {
+        "id": "KAMO",
+        "channel": "uic_kamo",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Der Griefer ergreift die Kluft! Heute werden nicht nur Frauen diskreminiert."
+    },
+    {
         "id": "SLEVIN",
         "channel": "slevinhunter",
         "ping_role": false,
