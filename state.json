@@ -90,8 +90,8 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": true,
-        "message_id": "1528476700210368705",
-        "started_at": 1784487591
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
