@@ -20,9 +20,9 @@
         "started_at": 0
     },
     "UIC": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1533139852525174816",
+        "started_at": 1785599350
     },
     "KEYGASZA": {
         "is_live": false,
