@@ -20,9 +20,9 @@
         "started_at": 0
     },
     "UIC": {
-        "is_live": true,
-        "message_id": "1533502259818795171",
-        "started_at": 1785685590
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "KEYGASZA": {
         "is_live": false,
@@ -50,9 +50,9 @@
         "started_at": 0
     },
     "LOONZ": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1533533727760584786",
+        "started_at": 1785693121
     },
     "DANNY": {
         "is_live": false,
