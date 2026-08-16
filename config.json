@@ -116,7 +116,14 @@
         "channel": "slevinhunter",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "GiG - Geld ist geil!"
+        "custom_text": "GiG - Geld ist Geil!"
+    },
+    {
+        "id": "VORACITY",
+        "channel": "voracity_lol",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Escaping the seven hells of low masta"
     },
     {
         "id": "NIGGGGO",
