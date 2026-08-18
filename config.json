@@ -126,6 +126,13 @@
         "custom_text": "Escaping the seven hells of low masta"
     },
     {
+        "id": "PIAPIOB",
+        "channel": "piapiob",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Hallo, ich bin piapiob!"
+    },
+    {
         "id": "NIGGGGO",
         "channel": "r3ktbybaguette",
         "ping_role": false,
