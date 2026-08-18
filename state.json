@@ -98,5 +98,10 @@
         "is_live": false,
         "message_id": null,
         "started_at": 0
+    },
+    "PIAPIOB": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
