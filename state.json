@@ -103,5 +103,10 @@
         "is_live": false,
         "message_id": null,
         "started_at": 0
+    },
+    "XAVER": {
+        "is_live": true,
+        "message_id": "1539764441006997535",
+        "started_at": 1787177271
     }
 }
