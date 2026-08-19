@@ -119,6 +119,13 @@
         "custom_text": "GiG - Geld ist Geil!"
     },
     {
+        "id": "XAVER",
+        "channel": "xavertseltsam",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Der chinesische Elise King ist bei UIC angekommen!"
+    },
+    {
         "id": "VORACITY",
         "channel": "voracity_lol",
         "ping_role": false,
