@@ -1,12 +1,5 @@
 [
     {
-        "id": "F10",
-        "channel": "f10official",
-        "ping_role": false,
-        "role_id": "",
-        "custom_text": "🔥 Mir ist nichts besseres eingefallen."
-    },
-    {
         "id": "UIC_TV",
         "channel": "uic_tv",
         "ping_role": false,
