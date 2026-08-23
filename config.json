@@ -140,6 +140,20 @@
         "custom_text": "Hallo, ich bin piapiob!"
     },
     {
+        "id": "MAKZKOVICH",
+        "channel": "makzkovich",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Best mental Ekko EUW ist Live!"
+    },
+    {
+        "id": "LANZUS",
+        "channel": "lanzus73",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ihr nennt ihn Papa Loonz, ich bin Papa Loonz!"
+    },
+    {
         "id": "NIGGGGO",
         "channel": "r3ktbybaguette",
         "ping_role": false,
