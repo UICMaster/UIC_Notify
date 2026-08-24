@@ -75,9 +75,9 @@
         "started_at": 0
     },
     "SLEVIN": {
-        "is_live": true,
-        "message_id": "1541493642898968617",
-        "started_at": 1787590928
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "NIGGGGO": {
         "is_live": false,
@@ -110,9 +110,9 @@
         "started_at": 0
     },
     "MAKZKOVICH": {
-        "is_live": true,
-        "message_id": "1541507562027876415",
-        "started_at": 1787594143
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "LANZUS": {
         "is_live": false,
