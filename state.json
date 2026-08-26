@@ -105,9 +105,9 @@
         "started_at": 1787763838
     },
     "XAVER": {
-        "is_live": true,
-        "message_id": "1542111547139166229",
-        "started_at": 1787738199
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "MAKZKOVICH": {
         "is_live": false,
