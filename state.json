@@ -50,9 +50,9 @@
         "started_at": 0
     },
     "LOONZ": {
-        "is_live": true,
-        "message_id": "1542939401246478360",
-        "started_at": 1787935780
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "DANNY": {
         "is_live": false,
@@ -75,9 +75,9 @@
         "started_at": 0
     },
     "SLEVIN": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1542988470379618307",
+        "started_at": 1787947311
     },
     "NIGGGGO": {
         "is_live": false,
