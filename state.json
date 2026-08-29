@@ -10,9 +10,9 @@
         "started_at": 0
     },
     "RACIALLE": {
-        "is_live": true,
-        "message_id": "1543304922177605696",
-        "started_at": 1788022803
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "RAYANDO": {
         "is_live": false,
