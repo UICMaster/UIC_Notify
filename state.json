@@ -50,9 +50,9 @@
         "started_at": 0
     },
     "LOONZ": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1544406665833615487",
+        "started_at": 1788285433
     },
     "DANNY": {
         "is_live": false,
