@@ -50,9 +50,9 @@
         "started_at": 0
     },
     "LOONZ": {
-        "is_live": true,
-        "message_id": "1544406665833615487",
-        "started_at": 1788285433
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "DANNY": {
         "is_live": false,
@@ -90,9 +90,9 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": true,
-        "message_id": "1544409091944874207",
-        "started_at": 1788286195
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "VORACITY": {
         "is_live": false,
