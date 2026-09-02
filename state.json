@@ -5,9 +5,9 @@
         "started_at": 0
     },
     "UIC_TV": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1544791643356532907",
+        "started_at": 1788377322
     },
     "RACIALLE": {
         "is_live": false,
@@ -50,9 +50,9 @@
         "started_at": 0
     },
     "LOONZ": {
-        "is_live": true,
-        "message_id": "1544752592976875591",
-        "started_at": 1788367900
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "DANNY": {
         "is_live": false,
