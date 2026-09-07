@@ -147,6 +147,13 @@
         "custom_text": "Ihr nennt ihn Papa Loonz, ich bin Papa Loonz!"
     },
     {
+        "id": "PERYZ",
+        "channel": "its_peryz",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "UICs Schönling zurück in der Kluft! Haare check, Maus check, deine Elo genommen.. check!"
+    },
+    {
         "id": "NIGGGGO",
         "channel": "r3ktbybaguette",
         "ping_role": false,
