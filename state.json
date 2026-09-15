@@ -75,9 +75,9 @@
         "started_at": 0
     },
     "SLEVIN": {
-        "is_live": true,
-        "message_id": "1549469938870390938",
-        "started_at": 1789492542
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "NIGGGGO": {
         "is_live": false,
