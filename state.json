@@ -55,9 +55,9 @@
         "started_at": 0
     },
     "DANNY": {
-        "is_live": true,
-        "message_id": "1550839030071951442",
-        "started_at": 1789818963
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "FOXYTEX": {
         "is_live": false,
