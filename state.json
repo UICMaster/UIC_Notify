@@ -90,9 +90,9 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1552667237780033679",
+        "started_at": 1790254883
     },
     "VORACITY": {
         "is_live": false,
