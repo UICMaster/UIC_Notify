@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": true,
-        "message_id": "1556720264073584681",
-        "started_at": 1791221130
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "KUROKO": {
         "is_live": false,
@@ -100,9 +100,9 @@
         "started_at": 0
     },
     "PIAPIOB": {
-        "is_live": true,
-        "message_id": "1556711391644356610",
-        "started_at": 1791219083
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "XAVER": {
         "is_live": false,
