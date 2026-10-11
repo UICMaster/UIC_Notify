@@ -14,6 +14,20 @@
         "custom_text": "🔥 proStarII ist Live!"
     },
     {
+        "id": "QVY",
+        "channel": "qvy_lol",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "NoHands, Frozii oder auch Broke as fuck genannt, ist besser als ich, ich gebe es zu...."
+    },
+    {
+        "id": "PRAY",
+        "channel": "UIC_Pray",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ich bin proStarIIs Girl und ich stehe dazu!"
+    },
+    {
         "id": "RAYANDO",
         "channel": "rayando07",
         "ping_role": false,
