@@ -25,9 +25,9 @@
         "started_at": 0
     },
     "KEYGASZA": {
-        "is_live": true,
-        "message_id": "1558909691994710017",
-        "started_at": 1791743359
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "SPEEDY": {
         "is_live": false,
