@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": true,
-        "message_id": "1558885730791718944",
-        "started_at": 1791737430
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "KUROKO": {
         "is_live": false,
@@ -75,9 +75,9 @@
         "started_at": 0
     },
     "SLEVIN": {
-        "is_live": true,
-        "message_id": "1558888231561596949",
-        "started_at": 1791738126
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "NIGGGGO": {
         "is_live": false,
