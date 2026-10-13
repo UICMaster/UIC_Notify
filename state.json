@@ -15,9 +15,9 @@
         "started_at": 0
     },
     "RAYANDO": {
-        "is_live": true,
-        "message_id": "1559501032520679446",
-        "started_at": 1791884330
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "UIC": {
         "is_live": false,
@@ -120,9 +120,9 @@
         "started_at": 0
     },
     "PERYZ": {
-        "is_live": true,
-        "message_id": "1559459507166253107",
-        "started_at": 1791874444
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "QVY": {
         "is_live": false,
