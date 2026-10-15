@@ -15,9 +15,9 @@
         "started_at": 0
     },
     "RAYANDO": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1560211979132477472",
+        "started_at": 1792053626
     },
     "UIC": {
         "is_live": false,
