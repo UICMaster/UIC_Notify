@@ -133,5 +133,20 @@
         "is_live": false,
         "message_id": null,
         "started_at": 0
+    },
+    "BISSIBOY": {
+        "is_live": true,
+        "message_id": "1561105358301298828",
+        "started_at": 1792261856
+    },
+    "ACE": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
+    },
+    "GOKU": {
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
