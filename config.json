@@ -7,6 +7,20 @@
         "custom_text": "🔥 UIC ist Live!"
     },
     {
+        "id": "BISSIBOY",
+        "channel": "bissiboy",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ich bin online <3"
+    },
+    {
+        "id": "ACE",
+        "channel": "ftace1",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Ich bin online <3"
+    },
+    {
         "id": "RACIALLE",
         "channel": "prostern2",
         "ping_role": false,
@@ -98,11 +112,11 @@
         "custom_text": "Der beste Caster übernimmt jetzt den Laden."
     },
     {
-        "id": "KUROKO",
-        "channel": "uic_kuroko",
+        "id": "GOKU",
+        "channel": "diamondgoku",
         "ping_role": false,
         "role_id": "",
-        "custom_text": ""
+        "custom_text": "Der wahre Goku!"
     },
     {
         "id": "FROZENHANDS",
@@ -173,12 +187,5 @@
         "ping_role": false,
         "role_id": "",
         "custom_text": "**Support Main auf dem Papier, Playmaker auf dem Server!** Als taktisches Herz des UIC Prime zieht {channel} im Hintergrund die Fäden. Speedy, Giani, Sheny (Nicht Niki, er ist unser Engel), carryed er durch das Game. **Eiskalt, präzise und den Gegnern immer einen Schritt voraus. **Spaß beiseite, UIC Prime ist die Fam ❤️ Kommt in den Stream und lasst es krachen für geiles Gameplay und mehr"
-    },
-    {
-        "id": "MARRIE",
-        "channel": "marriseyyy",
-        "ping_role": false,
-        "role_id": "",
-        "custom_text": "🔥 Marrie ist Live!"
     }
 ]
