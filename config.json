@@ -4,7 +4,7 @@
         "channel": "uic_tv",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "🔥 UIC ist LIve!"
+        "custom_text": "🔥 UIC ist Live!"
     },
     {
         "id": "RACIALLE",
@@ -102,7 +102,7 @@
         "channel": "uic_kuroko",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "Zu Jung ist nur ein asiatischer Frauenname!"
+        "custom_text": ""
     },
     {
         "id": "FROZENHANDS",
@@ -116,7 +116,7 @@
         "channel": "uic_kamo",
         "ping_role": false,
         "role_id": "",
-        "custom_text": "Der Griefer ergreift die Kluft!"
+        "custom_text": ""
     },
     {
         "id": "SLEVIN",
