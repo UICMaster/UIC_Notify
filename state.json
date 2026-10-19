@@ -20,9 +20,9 @@
         "started_at": 0
     },
     "UIC": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1561783592626163774",
+        "started_at": 1792428584
     },
     "KEYGASZA": {
         "is_live": false,
@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1561783595650256899",
+        "started_at": 1792428588
     },
     "KUROKO": {
         "is_live": false,
