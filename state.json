@@ -125,9 +125,9 @@
         "started_at": 1792420003
     },
     "QVY": {
-        "is_live": true,
-        "message_id": "1561685424999497861",
-        "started_at": 1792405176
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "PRAY": {
         "is_live": false,
