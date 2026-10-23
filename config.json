@@ -14,6 +14,13 @@
         "custom_text": "Ich bin online <3"
     },
     {
+        "id": "CORUSSION",
+        "channel": "corrusin",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Der Boy der G wieder drin in der kluft 🫦"
+    },
+    {
         "id": "ACE",
         "channel": "ftace1",
         "ping_role": false,
