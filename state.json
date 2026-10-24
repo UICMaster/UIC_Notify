@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1563594276015964181",
+        "started_at": 1792860218
     },
     "KUROKO": {
         "is_live": false,
@@ -120,9 +120,9 @@
         "started_at": 0
     },
     "PERYZ": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1563594278179962932",
+        "started_at": 1792860150
     },
     "QVY": {
         "is_live": false,
