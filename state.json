@@ -40,9 +40,9 @@
         "started_at": 0
     },
     "EIGEEEN": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1563975612585091194",
+        "started_at": 1792950978
     },
     "MC": {
         "is_live": false,
@@ -150,8 +150,8 @@
         "started_at": 0
     },
     "CORUSSION": {
-        "is_live": true,
-        "message_id": "1563970490370891877",
-        "started_at": 1792949917
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
