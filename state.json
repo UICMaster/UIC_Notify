@@ -110,9 +110,9 @@
         "started_at": 0
     },
     "MAKZKOVICH": {
-        "is_live": true,
-        "message_id": "1563868548772794461",
-        "started_at": 1792925266
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "LANZUS": {
         "is_live": false,
