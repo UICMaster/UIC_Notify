@@ -40,9 +40,9 @@
         "started_at": 0
     },
     "EIGEEEN": {
-        "is_live": true,
-        "message_id": "1563975612585091194",
-        "started_at": 1792950978
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "MC": {
         "is_live": false,
