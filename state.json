@@ -135,9 +135,9 @@
         "started_at": 0
     },
     "BISSIBOY": {
-        "is_live": true,
-        "message_id": "1563859754525270061",
-        "started_at": 1792923391
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "ACE": {
         "is_live": false,
