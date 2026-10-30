@@ -120,9 +120,9 @@
         "started_at": 0
     },
     "PERYZ": {
-        "is_live": true,
-        "message_id": "1565599956889505882",
-        "started_at": 1793338341
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "QVY": {
         "is_live": false,
@@ -150,8 +150,8 @@
         "started_at": 0
     },
     "CORUSSION": {
-        "is_live": true,
-        "message_id": "1565710682928709653",
-        "started_at": 1793364638
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
