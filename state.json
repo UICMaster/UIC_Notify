@@ -100,9 +100,9 @@
         "started_at": 0
     },
     "PIAPIOB": {
-        "is_live": true,
-        "message_id": "1567237164306272407",
-        "started_at": 1793728739
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "XAVER": {
         "is_live": false,
