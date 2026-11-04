@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": true,
-        "message_id": "1567604455069974539",
-        "started_at": 1793816219
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "KUROKO": {
         "is_live": false,
@@ -135,9 +135,9 @@
         "started_at": 0
     },
     "BISSIBOY": {
-        "is_live": true,
-        "message_id": "1567566695038455900",
-        "started_at": 1793807248
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "ACE": {
         "is_live": false,
