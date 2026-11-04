@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1567604455069974539",
+        "started_at": 1793816219
     },
     "KUROKO": {
         "is_live": false,
