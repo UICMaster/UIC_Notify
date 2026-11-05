@@ -150,8 +150,8 @@
         "started_at": 0
     },
     "CORUSSION": {
-        "is_live": true,
-        "message_id": "1567997030616399953",
-        "started_at": 1793909903
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     }
 }
