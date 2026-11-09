@@ -30,9 +30,9 @@
         "started_at": 0
     },
     "SPEEDY": {
-        "is_live": true,
-        "message_id": "1569310690492027012",
-        "started_at": 1794223083
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "GALLA": {
         "is_live": false,
