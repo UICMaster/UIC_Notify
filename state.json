@@ -120,9 +120,9 @@
         "started_at": 0
     },
     "PERYZ": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1570122287372566540",
+        "started_at": 1794416638
     },
     "QVY": {
         "is_live": false,
