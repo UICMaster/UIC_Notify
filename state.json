@@ -90,9 +90,9 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1570092064782164040",
+        "started_at": 1794409479
     },
     "VORACITY": {
         "is_live": false,
@@ -110,9 +110,9 @@
         "started_at": 0
     },
     "MAKZKOVICH": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1570092066468405269",
+        "started_at": 1794409345
     },
     "LANZUS": {
         "is_live": false,
