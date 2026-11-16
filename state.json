@@ -60,9 +60,9 @@
         "started_at": 0
     },
     "FOXYTEX": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1571946808052158465",
+        "started_at": 1794851667
     },
     "KUROKO": {
         "is_live": false,
@@ -90,9 +90,9 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1571946811214528675",
+        "started_at": 1794851460
     },
     "VORACITY": {
         "is_live": false,
