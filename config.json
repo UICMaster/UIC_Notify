@@ -7,6 +7,13 @@
         "custom_text": "🔥 UIC ist Live!"
     },
     {
+        "id": "F10",
+        "channel": "f10official",
+        "ping_role": false,
+        "role_id": "",
+        "custom_text": "Free LP"
+    },
+    {
         "id": "BISSIBOY",
         "channel": "bissiboy",
         "ping_role": false,
