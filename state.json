@@ -110,9 +110,9 @@
         "started_at": 0
     },
     "MAKZKOVICH": {
-        "is_live": true,
-        "message_id": "1572519316924932107",
-        "started_at": 1794988202
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "LANZUS": {
         "is_live": false,
@@ -120,9 +120,9 @@
         "started_at": 0
     },
     "PERYZ": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1572671605241544866",
+        "started_at": 1795024455
     },
     "QVY": {
         "is_live": false,
