@@ -140,9 +140,9 @@
         "started_at": 0
     },
     "ACE": {
-        "is_live": true,
-        "message_id": "1574108533228699863",
-        "started_at": 1795366979
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "GOKU": {
         "is_live": false,
