@@ -90,9 +90,9 @@
         "started_at": 0
     },
     "KAMO": {
-        "is_live": true,
-        "message_id": "1574493602154020925",
-        "started_at": 1795458648
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "VORACITY": {
         "is_live": false,
@@ -140,9 +140,9 @@
         "started_at": 0
     },
     "ACE": {
-        "is_live": true,
-        "message_id": "1574492429837668380",
-        "started_at": 1795458623
+        "is_live": false,
+        "message_id": null,
+        "started_at": 0
     },
     "GOKU": {
         "is_live": false,
