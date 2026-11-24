@@ -70,9 +70,9 @@
         "started_at": 0
     },
     "FROZENHANDS": {
-        "is_live": false,
-        "message_id": null,
-        "started_at": 0
+        "is_live": true,
+        "message_id": "1574847265346949353",
+        "started_at": 1795543184
     },
     "SLEVIN": {
         "is_live": true,
